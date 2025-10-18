@@ -1,15 +1,27 @@
-- **Business**
-  - [User Requirements](01_business/functional/functional-requirements-v1.0.md)
-  - [Functional Requirements](01_business/nonfunctional/non-functional-requirement-template-v1.0.md)
+- **Business Requirements**
+  - **Functional**
+    - [Functional Requirements v1.0](01_business/functional/functional-requirements-v1.0.md)
+  - **Non-Functional**
+    - [Non-Functional Requirement Template v1.0](01_business/nonfunctional/non-functional-requirement-template-v1.0.md)
+
 - **Technical**
   - [Architecture Blueprint](02_technical/architecture-blueprint.md)
-  - [ADRs](02_technical/architecture-decisions/ADR-001-template.md)
+  - **Architecture Decisions**
+    - [ADR-001 — GitHub](02_technical/architecture-decisions/adr-001-github.md)
+    - [ADR-002 — Lovable](02_technical/architecture-decisions/adr-002-lovable.md)
+    - [ADR Template (pgSQL)](02_technical/architecture-decisions/adr-template.pgsql)
+
 - **AI Prompts (Lovable)**
-  - [Functional Prompts](03_ai_prompts/lovable/functional-prompts.md)
-  - [Non-Functional Prompts](03_ai_prompts/lovable/non-functional-prompts.md)
-  - [Prompt Checkpoints](03_ai_prompts/lovable/checkpoints.md)
+  - **Functional**
+    - [Meta Prompt Checkpoint v1.0](03_ai_prompts/functional/chambrs_meta_prompt_checkpoint_v1.0.md)
+  - **Non-Functional**
+    - [Non-Functional Meta Prompts v1.0](03_ai_prompts/nonfunctional/nonfunctional_meta_prompts_v1.0.md)
+    - [Security Implementation Prompt](03_ai_prompts/nonfunctional/security_implementation_prompt.md)
+
 - **Governance**
   - [Compliance & Risk Register](04_governance/compliance-risk-register.md)
   - [Tooling & Process Register](04_governance/tooling-process-register.md)
+
 - **Operations**
-  - [Infra Blueprint](05_operations/infra-blueprint.md)
+  - [Infra Blueprint Diagram (v1)](05_operations/infra-blueprint-diagrams/infra-v1.drawio)
+
