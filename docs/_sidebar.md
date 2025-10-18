@@ -1,6 +1,6 @@
 - **Business**
-  - [User Requirements](01_business/user-requirements.md)
-  - [Functional Requirements](01_business/functional-requirements.md)
+  - [User Requirements](01_business/functional/functional-requirements-v1.0.md)
+  - [Functional Requirements](01_business/nonfunctional/non-functional-requirement-template-v1.0.md)
 - **Technical**
   - [Architecture Blueprint](02_technical/architecture-blueprint.md)
   - [ADRs](02_technical/architecture-decisions/ADR-001-template.md)
