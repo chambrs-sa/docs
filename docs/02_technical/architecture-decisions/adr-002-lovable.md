@@ -10,7 +10,12 @@
 - Desire to stay close to React/Supabase so code can be ported later.
 
 ## Decision
-Use **Lovable** to generate the MVP (React front-end + hosted backend services it provisions), while **preserving portability** of generated code.  
+Use **Lovable** to generate the MVP (React front-end + hosted backend services it provisions), while **preserving portability** of generated code. The project is built with:
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS  
 Scope: MVP and early pilots; critical flows (auth, investor onboarding, portfolio views).
 
 ## Options considered
