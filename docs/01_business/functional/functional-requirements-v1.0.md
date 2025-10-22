@@ -1,14 +1,14 @@
-# Investor Dashboard – Functional Requirements (Heavy Machinery Investment Platform MVP)
+# Investor Dashboard – Functional Requirements
 
 ---
 
 ## 0) Scope & Assumptions
 
-* **MVP Scope:** Web app for Investors & Admins to manage investments in **heavy machinery assets** (e.g., dump trucks, excavators, tipper trucks used in mining).
+* **MVP Scope:** Web app for Investors & Admins to manage investments in **heavy machinery** (e.g., tipper trucks, graders, crushers, bulldozers and excavators used in construction).
 * **Assets:** Real-world physical machines; investors may hold full or fractional ownership.
 * **Revenue Source:** Assets generate returns via rental contracts, operational usage, or resale value.
-* **Funding:** Deposits/withdrawals via bank transfer (manual workflow in MVP).
-* **Geography:** South Africa-first (mining context, compliance: POPIA, FICA).
+* **Funding:** Deposits via bank transfer to customer's digital wallets (manual workflow in MVP).
+* **Geography:** South Africa-first (construction context, compliance: POPIA, FICA).
 
 ---
 
@@ -59,7 +59,7 @@ Acceptance: MFA required if enabled; invalid TOTP returns 401 with error code MF
 
 * Total investment value
 * Cash balance
-* Rental income received to date
+* Returns received to date
 * Active assets vs. inactive assets (maintenance/downtime)
 
 **FR-3.2** Show an **Asset Catalogue** filtered to holdings:
@@ -125,7 +125,7 @@ Acceptance: MFA required if enabled; invalid TOTP returns 401 with error code MF
 Same as before, but wording updated:
 
 * **Deposits:** Funds to be used for machinery acquisition.
-* **Withdrawals:** Rental income withdrawals or proceeds from asset liquidation.
+* **Withdrawals:** Rental income withdrawals.
 
 Statuses remain `SUBMITTED → AWAITING_FUNDS → COMPLETED`.
 
