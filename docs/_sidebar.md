@@ -5,7 +5,8 @@
     - [Non-Functional Requirement Template v1.0](01_business/nonfunctional/non-functional-requirement-template-v1.0.md)
 
 - **Technical**
-  - [Architecture Blueprint](02_technical/architecture-blueprint.md)
+  - [Architecture Blueprint](02_technical/architecture.md)
+  - [Data Model](02_technical/datamodel.md)
   - **Architecture Decisions**
     - [ADR-001 — GitHub](02_technical/architecture-decisions/adr-001-github.md)
     - [ADR-002 — Lovable](02_technical/architecture-decisions/adr-002-lovable.md)
