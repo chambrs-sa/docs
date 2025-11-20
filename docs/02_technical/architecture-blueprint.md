@@ -1,27 +1,43 @@
-+---------------------------------------------------------------+
-|                Governance & Compliance Layer                  |
-|   (POPIA/GDPR, RBAC, RLS, Key Mgmt, Audit, BC/DR, RTO/RPO)    |
-+---------------------------+-----------------------------------+
-|     Platform & Edge       |         Observability             |
-|  (Lovable Cloud Runtime)  | (Sentry, Logflare, Metrics/Alrt)  |
-|  - CDN / Edge routing     | - App logs & DB logs              |
-|  - WAF / TLS / Custom DNS | - Traces, uptime, error budgets   |
-|  - Serverless Functions   |                                   |
-|  - CI/CD & Env Vars       |                                   |
-+---------------------------+-----------------------------------+
-|                        Application Layer                      |
-|  - Web App (MVP Monolith now; microservices-ready later)     |
-|  - API Routes / BFF (on Lovable functions)                    |
-|  - Background jobs / schedulers (Lovable cron or 3rd-party)   |
-|  - Feature flags & config                                     |
-+---------------------------------------------------------------+
-|                         Integration Layer                     |
-|  - Auth (Supabase Auth)   - Email/SMS (e.g., Resend/Twilio)   |
-|  - KYC/FICA provider      - Payments/Payouts                  |
-|  - File AV scanning       - Caching (e.g., Upstash Redis)     |
-+---------------------------+-----------------------------------+
-|           Data Layer             |      Storage & Backups     |
-|  - PostgreSQL (Supabase)         |  - Supabase Storage        |
-|  - RLS + PII encryption (Vault)  |  - Object lifecycle + AV   |
-|  - Read replicas (if needed)     |  - Point-in-time restore   |
-+----------------------------------+----------------------------+
+```mermaid
+flowchart TD
+
+subgraph Governance & Compliance
+  A1(POPIA/GDPR<br>RBAC / RLS<br>Key Mgmt<br>Audit / BC-DR<br>RTO/RPO)
+end
+
+subgraph Platform & Edge
+  B1(CDN / Edge routing)
+  B2(WAF / TLS / DNS)
+  B3(Serverless Functions)
+  B4(CI/CD & Env Vars)
+end
+
+subgraph Observability
+  C1(App logs & DB logs)
+  C2(Traces / uptime / error budgets)
+end
+
+subgraph Application Layer
+  D1(Web App - MVP Monolith)
+  D2(API Routes / BFF)
+  D3(Background jobs / schedulers)
+  D4(Feature flags & config)
+end
+
+subgraph Integration Layer
+  E1(Auth - Supabase)
+  E2(Email/SMS - Resend/Twilio)
+  E3(KYC/FICA provider)
+  E4(Payments/Payouts)
+  E5(File AV scanning)
+  E6(Caching - Upstash Redis)
+end
+
+subgraph Data Layer
+  F1(PostgreSQL - Supabase)
+  F2(RLS + PII encryption)
+  F3(Read replicas)
+  F4(Supabase Storage)
+  F5(Object lifecycle + AV)
+  F6(Point-in-time restore)
+end
