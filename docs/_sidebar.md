@@ -25,4 +25,7 @@
 
 - **Operations**
   - [Infra Blueprint Diagram (v1)](05_operations/infra-blueprint-diagrams/infra-v1.drawio)
+ 
+- **MVP2**
+  - [Migration Plan](06_migration_plan)
 
