@@ -17,7 +17,7 @@ This document outlines the **complete migration plan** for moving CHAMBRS away f
 * **Database:** Supabase Postgres (initial), AWS RDS (future)
 * **Infrastructure:** Vercel (initial), AWS ECS/RDS/CloudFront (future)
 * **Security:** ISO27001-aligned controls, documentation, and processes
-* **Timeline:** 8–12 weeks (solo founder), strict execution plan
+* **Timeline:** 8–12 weeks, strict execution plan
 
 This is designed for **lean startups** with <100 users and <10 active users, and focuses on rapid delivery without compromising security.
 
