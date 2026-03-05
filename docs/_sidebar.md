@@ -1,5 +1,5 @@
 - **Product Documentation**
-  - **Fconstruction operations intelligence platform**
+  - **Construction operations intelligence platform**
     - [Product Requirements Specifications v1.0](01_business/intelligence-platform-prs-v1.0.md)
    
 - **Business Requirements**
