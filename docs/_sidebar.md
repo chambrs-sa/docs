@@ -1,3 +1,7 @@
+- **Product Documentation**
+  - **Fconstruction operations intelligence platform**
+    - [Product Requirements Specifications v1.0](01_business/intelligence-platform-prs-v1.0.md)
+   
 - **Business Requirements**
   - **Functional**
     - [Functional Requirements v1.0](01_business/functional/functional-requirements-v1.0.md)
